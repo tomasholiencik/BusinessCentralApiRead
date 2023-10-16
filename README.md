@@ -78,7 +78,7 @@ This function relies on the `ConfidentialClientApplication` class, which should 
 
 Example of extract of general ledger entries increment for day 30.07.2023
 
-### Code usage example
+### Code usage example PY
 ```python
 def main():
     # Set the authorization parameters
@@ -104,7 +104,7 @@ def main():
 
 ```
 
-### Return data example `generalLedgerEntries` endpoint
+### Return data example `generalLedgerEntries` endpoint JSON
 
 ```json
 {
