@@ -147,25 +147,8 @@ Example of extract of general ledger entries increment for day 30.07.2023
 
 ### Code usage example PY
 ```python
-def main():
-    # Set the authorization parameters
-    client_id = 'your_entraId_app_client_id'
-    client_secret = 'your_entraId_app_client_id'
-    tenant_id = 'your_tenant_id'
-    
-    # Get the access token
-    access_token = auth_msal_bc(client_id,client_secret,tenant_id)
 
-    # Set the parameters for the data request
-    company_id = 'your_company_id'
-    environment_name = 'your_environment_name'
-    endpoint = 'your_endpoint'
     query="$filter=documentNumber eq '04-2023/0001-00338'" 
-
-    # Get the data
-    data = get_bc_data(access_token, company_id, environment_name, endpoint, query)
-
-    return data
 
 ```
 
