@@ -32,7 +32,8 @@ The `get_bc_data` function retrieves data from a Dynamics 365 Business Central A
 
 - `environment_name` (str): The name of the Dynamics 365 Business Central environment. Provided by D365BC admin.
 
-- `endpoint` (str): The specific endpoint or path for the API resource you wish to access. You can find a list of available endpoints in the [official documentation](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/api-reference/v2.0/). Use [generalLedgerEntries](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/api-reference/v2.0/resources/dynamics_generalledgerentry) to obtain general ledger entries. One posting in accounting (document) consist of two or more general ledger entries
+- `endpoint` (str): The specific endpoint or path for the API resource you wish to access. You can find a list of available endpoints in the [official documentation](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/api-reference/v2.0/). \ 
+Use [generalLedgerEntries](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/api-reference/v2.0/resources/dynamics_generalledgerentry) to obtain general ledger entries. One posting in accounting (document) consist of two or more general ledger entries. \
 Only endpoint generalLedgerEntries will be automatically expanded with dimensionSetLines containing cost center data (see [return data example](#return-data-example-generalLedgerEntries-endpoint) )
 
 - `query` (str, optional): Additional query parameters to include in the request URL. The default is `None`. These parameters can be used to reduce the response size or enable incremental refresh, particularly in conjunction with the 'lastModifiedDateTime' field. For more details, refer to the [official documentation](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-filtering).
