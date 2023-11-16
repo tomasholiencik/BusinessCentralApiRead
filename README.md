@@ -74,7 +74,7 @@ This function relies on the `ConfidentialClientApplication` class, which should 
 
 - MSAL library documentation: [MSAL ConfidentialClientApplication](https://learn.microsoft.com/en-us/python/api/msal/msal.application.confidentialclientapplication?view=msal-py-latest)
 
-## Usage Example query with date
+## Usage Example query with lastModifiedDateTime
 
 Example of extract of general ledger entries increment for day 30.07.2023
 
@@ -141,7 +141,7 @@ def main():
 }
 ```
 
-## Usage Example query with Document No and showing two Dimensions
+## Usage Example query with documentNumber and showing two Dimensions with updated lastModifiedDateTime
 
 Example of extract of general ledger entries increment for day 30.07.2023
 
