@@ -175,7 +175,8 @@ lastModifiedDateTime key shows datetime of any changes in posting row - also in 
 
 ```json
 {
-    [
+    '@odata.context': 'https://api.businesscentral.dynamics.com/v2.0/AT/api/v2.0/$metadata#companies(bfd3d48a-7b14-ee11-8f6e-6045bd9dec5b)/generalLedgerEntries',
+     'value': [
         {
             '@odata.etag': 'W/"JzE5OzI4NTY4NDc5OTgyNjM4OTU4ODQxOzAwOyc="',
               'id': '12fd87a0-8414-ee11-8f6e-6045bd9dec5b',
@@ -189,8 +190,7 @@ lastModifiedDateTime key shows datetime of any changes in posting row - also in 
               'debitAmount': 9.23,
               'creditAmount': 0,
               'lastModifiedDateTime': '2023-07-30T18:11:59.58Z',
-              'dimensionSetLines':
-                    [
+              'dimensionSetLines': [
                         {
                             '@odata.etag': 'W/"JzE5OzMwNTg2MTE3ODIxNjcyMTYwODcxOzAwOyc="',
                             'id': '4a0db8ab-8014-ee11-8f6e-6045bd9dec5b',
@@ -217,8 +217,7 @@ lastModifiedDateTime key shows datetime of any changes in posting row - also in 
               'debitAmount': 46.17,
               'creditAmount': 0,
               'lastModifiedDateTime': '2023-11-16T15:44:53.277Z',
-              'dimensionSetLines':
-                    [
+              'dimensionSetLines': [
                         {
                             '@odata.etag': 'W/"JzIwOzEzNjUxMzM2ODQwMjYwMDA5OTQzMTswMDsn"',
                             'id': '4a0db8ab-8014-ee11-8f6e-6045bd9dec5b',
@@ -255,8 +254,7 @@ lastModifiedDateTime key shows datetime of any changes in posting row - also in 
               'debitAmount': 0,
               'creditAmount': 55.4,
               'lastModifiedDateTime': '2023-07-30T18:11:59.583Z',
-              'dimensionSetLines':
-                    [
+              'dimensionSetLines': [
                         {
                             '@odata.etag': 'W/"JzE5Ozg1MzYwMjM4NjcxMTkyODgyNzkxOzAwOyc="',
                             'id': '4a0db8ab-8014-ee11-8f6e-6045bd9dec5b',
