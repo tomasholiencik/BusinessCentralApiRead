@@ -73,6 +73,9 @@ def main():
     query="$filter=lastModifiedDateTime ge 2023-07-30T00:00:00Z and lastModifiedDateTime lt 2023-07-31T00:00:00Z" 
     #this does not work with Z at the end despite optional in documentation
 
+    #alternative query to filter on documentNumber
+    #query="$filter=documentNumber eq '04-2023/0001-00338'" 
+
     # Get the data
     data = get_bc_data(access_token, company_id, environment_name, endpoint, query)
 
